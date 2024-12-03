@@ -10,9 +10,7 @@ export default function Home() {
 
       <SignedOut>
         <SignInButton mode="modal">
-          <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg">
-            Login
-          </button>
+          <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg">Login</button>
         </SignInButton>
       </SignedOut>
 
@@ -21,9 +19,7 @@ export default function Home() {
           Hi <span className="font-bold text-xl">{user?.firstName}</span>
         </h1>
         <p>You have joined the waiting list successfully</p>
-        <p>
-          You will be notified in the near future when the website is launched
-        </p>
+        <p>You will be notified in the near future when the website is launched</p>
       </SignedIn>
     </div>
   );
